@@ -1,1 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+@media screen and (min-width:0px) and (max-width:480px) {
+    .first-sec-imgs .first-img {
+        width: 50%;
+        position: relative;
+        z-index: -3;
+        right: 0;
+        bottom: 0;
+    }
+    .client{
+        height: unset;
+    }
+    .client-card{
+        width: 100%;
+    }
+    .main-text{
+        width: unset;
+    }
+    nav ul{
+        display: none;
+    }
+    .vec{
+        display: none;
+    }
+    header .main-text h1{
+        font-size: 2rem;
+    }
+    header .main-text h2{
+        font-size: 1rem;
+    }
+    header .main-text p{
+        font-size: .9rem;
+    }
+    section.first-sec{
+        flex-direction: column-reverse;
+        margin: 3rem 0;
+    }
+
+    .first-sec .first-sec-imgs {
+        width: 80%;
+        height: unset;
+        margin-top: 3rem;
+    }
+    .first-sec .first-sec-text{
+        width: 80%;
+    }
+    section.destination{
+        height: unset;
+    }
+    .subscribe-sec .mailsec input{
+        width:unset ;
+    }
+    footer .social-icons{
+        width: 80%;
+    }
+
+    
+}
